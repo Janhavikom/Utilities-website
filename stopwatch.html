@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stopwatch</title>
+    <link rel="stylesheet" href="stopwatch.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Noto+Sans&family=Poppins:wght@500&display=swap');
+    body{
+        margin: 0px;
+        font-family: 'Poppins', sans-serif;
+    }
+    #navbar{
+        background-color: rgb(158, 50, 50);
+        color: white;
+        text-align: center;
+        width: 100vw;
+        margin: 10vh 0vh;
+        padding: 20px 0px;
+    }
+    #navbar li{
+        display: inline-block;
+        padding: 0px 40px;
+    }
+
+    #navbar li a{
+        text-decoration: none;
+        color: white;
+        font-weight: bold;
+    }
+
+    .home{
+        text-decoration: none;
+        color: white;
+        padding: 0px 5px;
+    }
+
+    .home a{
+        text-decoration: none;
+        color: white;
+    }
+</style>
+<body>
+    <div style="background-color: rgb(25, 66, 110); padding: 10px 10px; width: 10vw; margin: 1vh 1vw; border-radius: 10px;"  >
+        <i  style="display: inline; text-decoration: none;" class="fa-solid fa-house home"></i>
+        <section class="home" style="display: inline"><a href="utilities.html">Home</a></section>
+    </div>
+    <nav id="navbar">
+        <li><a href="#">Alarm</a> </li>
+        <li><a href="analogclock.html">Clock</a> </li>
+        <li><a href="stopwatch.html">Stopwatch</a> </li>
+    </nav>
+    
+    <div id="container">
+        <div id="time">
+            <!-- <span>00hr00min00sec</span> -->
+            <span class="digit" id="hr">00</span>
+            <span class="txt">Hr</span>
+            <span class="digit" id="min">00</span>
+            <span class="txt">Min</span>
+            <span class="digit" id="sec">00</span>
+            <span class="txt">Sec</span>
+        </div>
+        <div id="btncontainer">
+            <button class="btn" id="start" onclick="start()">Start</button>
+            <button class="btn" id="reset" onclick="reset()">Reset</button>
+        </div>
+    </div>
+</body>
+<script src="stopwatch.js"></script>
+</html>
