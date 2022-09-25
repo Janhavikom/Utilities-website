@@ -14,4 +14,5 @@ I also intend on adding a to-do list option.
 ![image](https://user-images.githubusercontent.com/84494006/191672249-617e28fb-531a-4bab-9027-b24eb01cc636.png)
 ![image](https://user-images.githubusercontent.com/84494006/191672808-f09ac9cd-5780-4ff3-bb08-060ebd10caec.png)
 ![image](https://user-images.githubusercontent.com/84494006/191672882-8c5879a2-45ec-4fc1-9ac8-cad3ea9904b0.png)
+![image](https://user-images.githubusercontent.com/84494006/192138647-33740a70-0024-4751-a7bf-0339f9e4335e.png)
 
